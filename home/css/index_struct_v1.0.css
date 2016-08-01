@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*大輪播 star*/
+.slider {width: 100%; margin: 0 auto;}
+/*.slick-slide {margin-top: 45px;}*/
+.slick-slide img {width: 100%;}
+.slick-dots {bottom:15px;}
+.slick-dots li {width:5px; height:5px; margin:0 8px;}
+.slick-dotted.slick-slider {margin-bottom:-1px;}
+.slider_bn {}
+/*大輪播 end*/
+ 
+.theme_btn_wrap {
+	width:100%;
+	text-align:center;
+	background:#aad2af;
+}
+.theme_btn {
+	/*border:1px solid #ccc;*/
+	width:22%;
+	display:inline-block;
+	margin:10px 0;
+}
+.prod_title_wrap {
+	width:100%;	
+	background:#008219;
+	text-align:center;
+	position:relative;
+}
+.prod_more {
+	width:42%;	
+	float:left;
+}
+.prod_block_wrap {width: 100%;}
+.prod_block {
+	width:49%;
+	float:left;
+	background:#fff;
+	text-align:center;
+	margin:10px 0;
+	padding-bottom:15px;
+}
+.prod_block:nth-child(even) {float:right;}

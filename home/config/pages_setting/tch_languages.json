@@ -1,0 +1,36 @@
+{
+  "store_header" : {
+                    "search_text" : "搜尋",
+                    "search_holder" : "請輸入關鍵詞",
+                    "login_text" : "登入",
+                    "logout_text" : "登出"
+                   },
+  "footer" : {
+              "index_text" : "首頁",
+              "order_search_text" : "訂單查詢",
+              "cart_text" : "購物車",
+              "fbmsg_text" : "線上客服",
+              "contact_text" : "聯絡我們",
+              "buy_text" : "購買"
+             },
+  "store_index" : {},
+  "prod_list" : {
+                 "error_msg_text" : "查無資料！"
+                },
+  "prod_detail" : {
+                   "prod_intro_text" : "商品特色說明",
+                   "prod_description_text" : "商品介紹",
+                   "prod_model_shippng_text" : "商品規格/運送方式",
+                   "models_text" : "規格：",
+                   "shippng_text" : "運送方式：",
+                   "you_will_like_text" : "猜您喜歡的"
+                  },
+  "prod_models" : {
+                   "special_price_text" : "特價：",
+                   "models_text" : "規格：",
+                   "qty_text" : "數量：",
+                   "shipping_text" : "配送：",
+                   "shop_again_text" : "再逛逛吧",
+                   "checkout_text" : "前往結帳"
+                  }
+}

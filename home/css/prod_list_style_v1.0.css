@@ -1,0 +1,40 @@
+@charset "utf-8";
+.list_photo img {
+	width: 100%;
+	height:auto;
+	max-width:120px;
+	float: left;
+	margin:5px;
+}
+.list_data h4 {
+	font-size:16px;
+	margin-top:10px;
+	overflow:hidden;
+	height:18px;
+	line-height:18px;
+}
+.list_data h5 {
+	font-size: 14px;
+	line-height: 20px;
+	margin:4px 0;
+	overflow:hidden;
+	height:38px;
+}
+.list_data h6 {
+	font-size:10px;
+	text-decoration: line-through;
+	color: #666;
+	margin:10px 0 2px 0;
+}
+.list_icon_bar h3 {
+	font-size:20px;
+	color: #F75A00;
+	font-weight:bold;
+	float:left;
+	line-height:28px;
+}
+.list_icon_bar span {
+	float:right;
+	margin-right:10px;
+}
+.list_icon_bar span.love {padding-top:3px;}

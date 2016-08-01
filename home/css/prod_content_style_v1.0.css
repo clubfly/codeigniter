@@ -1,0 +1,66 @@
+@charset "utf-8";
+.prod_price h4 {
+	font-size:20px;
+	font-weight: bold;
+	color: #F75A00;
+	float:left;
+}
+.prod_price h6 {
+	text-decoration: line-through; 
+	font-size: 12px;
+	color:#666;
+	float:left;
+	margin:5px 0 0 20px;
+}
+.prod_feature h4 {
+	font-size:15px;
+	margin:3px 0;
+}
+.prod_feature h5 {
+	font-size:14px;
+	line-height:18px;
+}
+.prod_info_wrap h3 {
+	border-top:1px solid #E6E6E6;
+	border-bottom:1px solid #B3B3B3;
+	height:45px;
+	line-height:45px;
+	padding-left:20px;
+	font-size:15px;
+	cursor:pointer;
+}
+.prod_info_wrap p {
+	text-align:center;
+
+}
+.prod_info_wrap p img {
+	width: 100%;
+	height: auto;
+	max-width: 768px;
+}
+.orange {color:#F75A00;}
+.like_box a img {
+	width:100%;
+	height:auto;
+	max-width:200px;
+}
+.like_box h4 {
+	font-size:15px;
+	float:left;
+	line-height:30px;
+	line-height:18px;
+}
+.like_box h2 {
+	font-size:18px;
+	color:#F75A00;
+	float:right;
+	font-weight:bold;
+	line-height:18px;
+}
+.like_box h5 {
+	font-size:14px;
+	line-height:18px;
+	margin:5px 0;
+}
+
+

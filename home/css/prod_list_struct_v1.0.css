@@ -1,0 +1,20 @@
+@charset "utf-8";
+.prod_list_wrap {width:100%;}
+.error_msg {
+	color:#f00;
+	font-size:18px;
+	text-align:center;
+	padding:20px;
+}
+.prod_list_box {
+	width:100%;
+	float: left;
+	margin-bottom:6px;
+	background:#fff;
+}
+.list_photo {}
+.list_data {
+	overflow:hidden;
+	margin: 0 6px;
+}
+.list_icon_bar {overflow:hidden;}

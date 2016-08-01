@@ -1,0 +1,56 @@
+{ 
+  "store_header" : {
+                     "css" : {
+                               "1" : "eric_meyer_reset.min.css",
+                               "2" : "Normalize_v1.0.min.css",
+                               "3" : "jquery_ui.css",
+                               "4" : "web_base_struct_v1.0.css",
+                               "5" : "web_base_style_v1.0.css"
+                             },
+                     "js" : {
+                              "1" : "jquery_1.11.0.min.js",
+                              "2" : "jquery_migrate_1.2.1.min.js",
+                              "3" : "jquery-ui.1.12.0.js",
+                              "4" : "header_v1.js"
+                            }
+                   },
+  "footer" : {
+               "css" : {},
+               "js" : {}
+             },
+  "store_index" : {
+                    "css" : {
+                              "1" : "slick.css",
+                              "2" : "slick_theme.css",
+                              "3" : "index_struct_v1.0.css",
+                              "4" : "index_style_v1.0.css"
+                            },
+                    "js" : {
+                             "1" : "slick.min.js",
+                             "2" : "index_v1.js"
+                           }
+                  },
+  "prod_list" : {
+                  "css" : {
+                            "1" : "prod_list_struct_v1.0.css",
+                            "2" : "prod_list_style_v1.0.css"
+                          },
+                  "js" : {}
+                },
+  "prod_detail" : {
+                    "css" : {
+                              "1" : "slick.css",
+                              "2" : "slick_theme.css",
+                              "3" : "prod_content_struct_v1.0.css",
+                              "4" : "prod_content_style_v1.0.css"
+                            },
+                    "js" : {
+                             "1" : "slick.min.js",
+                             "2" : "prod_content_v1.js"
+                           }
+                  },
+  "prod_models" : {
+                    "css" : {},
+                    "js" : {}
+                  }
+}

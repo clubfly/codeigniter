@@ -1,0 +1,18 @@
+Options +FollowSymLinks +SymLinksIfOwnerMatch
+AddDefaultCharset utf-8
+RewriteEngine on
+RewriteBase /
+
+#RewriteCond $1 !^(index\.php|images|uploads|languages_img|img|css|js|pdf|barcode|robots\.txt|$)
+#RewriteCond %{HTTP_HOST} !^www\.test1\.johomy.com.tw
+#RewriteCond %{HTTP_HOST} ^(.*).test1.johomy.com.tw
+#RewriteRule ^(.*)$ http://www.test1.johomy.com.tw/store_public/$1/%1 [P,L] 
+
+RewriteCond $1 !^(index\.php|images|uploads|languages_img|img|css|js|pdf|barcode|phpPgAdmin-5.1|robots\.txt|$)
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+#RewriteCond %{HTTP_HOST} !^www\.intjohomy.com.tw
+#RewriteCond %{HTTP_HOST} ^(.+).intjohomy.com.tw
+#RewriteRule ^([^/]*)$ http://www.intjohomy.com.tw/store/$1/%1 [P,L] 
+
+
